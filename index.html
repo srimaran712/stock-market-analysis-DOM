@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock markert</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 id="heading">Stock Market analysis</h1>
+    <div id="main-container">
+        <div id="stock-container">
+            <ul id="stock-box"></ul>
+        </div>
+        <div id="container">
+            <canvas id="myChart" width="700" height="500"></canvas>
+            <div id="details">
+                <div id="year-btn">
+                    <button id="1m-btn" class="btn">1 Month</button>
+                   <button id="3m-btn" class="btn">3 Months</button>
+                    <button id="3y-btn" class="btn">1 Year</button>
+                    <button id="5y-btn" class="btn">5 years</button>
+                    
+
+                </div>
+                <p id="summary"></p>
+            </div>
+        </div>
+    </div>
+   
+    
+    <script src="./app.js"></script>
+</body>
+</html>
